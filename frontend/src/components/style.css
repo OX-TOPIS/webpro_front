@@ -1,0 +1,231 @@
+/* style card.vue only*/
+/* style card.vue only*/
+/* style card.vue only*/
+/* style card.vue only*/
+#appp {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e2fa;
+}
+
+.swiper {
+  width: 1250px;
+  height: 400px;
+  margin-top: 45px;
+  border-radius: 20px;
+}
+
+/* .swiper-slide {
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    font-size: medium;
+  } */
+
+.index {
+  height: 170px;
+}
+.vocab {
+  font-size: larger;
+  height: 35px;
+}
+.type-vocab {
+  height: 135px;
+}
+.definition {
+  height: 60px;
+}
+
+/* today24/2 */
+.card-ing {
+  height: calc(100% - 80px);
+}
+label {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.flip-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.flip-card .front,
+.flip-card .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+  border-radius: 0 20px 0 20px;
+  background-color: #FDFBEC;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #F5E98C;
+}
+
+.flip-card .back {
+  transform: rotateY(180deg);
+  background-color: #FDFBEC;
+}
+
+label:hover .flip-card {
+  transform: rotateY(2deg);
+}
+
+input {
+  display: none;
+}
+
+:checked + .flip-card {
+  transform: rotateY(180deg);
+}
+label:hover :checked + .flip-card {
+  transform: rotateY(175deg);
+}
+
+
+/* FRPNT CARD */
+/* FRPNT CARD */
+/* FRPNT CARD */
+/* FRPNT CARD */
+/* FRPNT CARD */
+/* FRPNT CARD */
+
+.front h1 {
+  font-size: 30px;
+  margin: 0;
+  height: 85px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.front h2 {
+  font-size: 32px;
+  font-weight: 900;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.front b {
+  font-size: 17px;
+  display: block;
+  height: 85px;
+}
+
+.front p,
+.back .click {
+  font-size: 18px;
+  font-weight: 600;
+  height: 95px;
+  
+}
+.in-index{
+  border-radius: 0px 20px;
+}
+.in-type{
+  border-radius: 15px;
+}
+
+
+
+/* BLACK CARD */
+/* BLACK CARD */
+/* BLACK CARD */
+/* BLACK CARD */
+/* BLACK CARD */
+/* BLACK CARD */
+
+
+.back h1 {
+  height: 85px;
+}
+
+.back h2{
+  height: 85px;
+}
+
+.back p {
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  background-color: #499bef;
+}
+.card-ing1 {
+  margin-bottom: 8%;
+}
+.back-buttom{
+  font-size: 18px;
+  font-weight: 600;
+}
+.back-button-r{
+  height: 68px;
+  width: 50%;
+  background-color: #FF7D7D;
+  color: white;
+}
+.back-button-l{
+  height: 68px;
+  width: 50%;
+  background-color: #6BCB77;
+  color: white;
+}
+
+
+
+
+/* navvvvvvvvvvvvvvvvv */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav {
+  height: 80px;
+  width: 100%;
+}
+labell.logo {
+  line-height: 80px;
+  padding: 0 50px;
+  color: #fff;
+}
+nav ul {
+  float: right;
+  margin-right: 60px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 50px;
+}
+nav ul li a {
+  color: white;
+}
+
